@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "php-docblocker.author": {
+        "name": "Tharles Amaro",
+        "email": "tharlesamaro@gmail.com"
+    },
+    "files.autoSave": "afterDelay",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "symbols.hidesExplorerArrows": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 0,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "apc.font.family": "Inter",
+    "window.commandCenter": false,
+    "terminal.integrated.fontFamily": "JetBrains Nerd Font",
+    "workbench.tree.indent": 14,
+    "workbench.tree.renderIndentGuides": "always",
+}
