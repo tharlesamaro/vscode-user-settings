@@ -1,30 +1,45 @@
 {
-    "workbench.colorTheme": "Min Dark",
-    "workbench.iconTheme": "symbols",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.labelFormat": "short",
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset"
+    },
+    "apc.font.family": "Inter",
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        "editor-actions": "display: none",
+    },
+    "breadcrumbs.enabled": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 11.5,
+    "editor.lineHeight": 0,
+    "editor.minimap.enabled": true,
+    "editor.padding.top": 10,
+    "editor.renderLineHighlight": "gutter",
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.verticalScrollbarSize":10,
+    "editor.semanticHighlighting.enabled": false,
+    "explorer.compactFolders": false,
+    "files.autoSave": "afterDelay",
+    "intelephense.environment.documentRoot": "public/index.php",
+    "intelephense.environment.phpVersion": "8.3.2",
+    "intelephense.telemetry.enabled": false,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
     "php-docblocker.author": {
         "name": "Tharles Amaro",
         "email": "tharlesamaro@gmail.com"
     },
-    "files.autoSave": "afterDelay",
-    "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-    },
-    "symbols.hidesExplorerArrows": false,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 12,
-    "editor.lineHeight": 0,
-    "editor.rulers": [
-        80,
-        120
-    ],
-    "editor.renderLineHighlight": "gutter",
-    "editor.fontLigatures": true,
-    "explorer.compactFolders": false,
-    "apc.font.family": "Inter",
-    "window.commandCenter": false,
     "terminal.integrated.fontFamily": "JetBrains Nerd Font",
-    "workbench.tree.indent": 14,
-    "workbench.tree.renderIndentGuides": "always",
+    "window.commandCenter": false,
+    "window.customTitleBarVisibility": "windowed",
+    "window.titleBarStyle": "native",
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "workbench.editor.labelFormat": "short",
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.tree.indent": 18,
+    "workbench.tree.renderIndentGuides": "onHover",
 }
